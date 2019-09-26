@@ -16,6 +16,8 @@ public class AppConfig {
 
     @Bean
     public Movie getMovie(){
-        return new Movie(getActor());
+        Movie movie = new Movie();
+        movie.setActor(getActor());
+        return movie;
     }
 }
