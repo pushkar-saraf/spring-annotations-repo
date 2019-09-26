@@ -1,15 +1,20 @@
 package com.tasks.withannotations;
 
-public class Movie {
-    Actor actor;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
 
+@Component
+@Scope("prototype")
+public class Movie {
+    private Actor actor;
+
+    @Autowired
     Movie(Actor actor){
         this.actor = actor;
     }
 
-    Movie(){
 
-    }
 
     @Override
     public String toString() {

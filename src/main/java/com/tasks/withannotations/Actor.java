@@ -1,4 +1,10 @@
 package com.tasks.withannotations;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.context.annotation.Scope;
+import org.springframework.stereotype.Component;
+
+@Scope("prototype")
 public class Actor {
     private String name;
     private String gender;
