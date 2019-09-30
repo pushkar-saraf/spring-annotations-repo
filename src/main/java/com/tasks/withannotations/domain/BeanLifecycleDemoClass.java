@@ -1,4 +1,4 @@
-package com.tasks.withannotations;
+package com.tasks.withannotations.domain;
 
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;

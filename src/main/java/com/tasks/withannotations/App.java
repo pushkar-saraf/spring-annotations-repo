@@ -1,6 +1,6 @@
 package com.tasks.withannotations;
 
-import org.springframework.context.ApplicationContext;
+import com.tasks.withannotations.domain.AppConfig;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 import org.springframework.context.support.AbstractApplicationContext;
 
