@@ -1,4 +1,4 @@
-package com.tasks.withannotations;
+package com.tasks.withannotations.domain;
 
 public class Movie {
     Actor actor;
