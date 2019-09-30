@@ -1,5 +1,7 @@
 package com.tasks.withannotations;
 
+import com.tasks.withannotations.domain.AppConfig;
+import com.tasks.withannotations.domain.Movie;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.AnnotationConfigApplicationContext;
 
